@@ -13,11 +13,9 @@ a {
 	font-weight: 700;
 }
 
-body {
+.container {
 	background: url("../img/dj.png");
 	background-repeat: no-repeat;
-}
-.container {
 	width: 370px;
 	height: 812px;
 }
