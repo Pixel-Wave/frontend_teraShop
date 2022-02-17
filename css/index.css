@@ -1,0 +1,95 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: "DM Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+body {
+	background: url("../img/dj.png");
+	background-repeat: no-repeat;
+}
+.container {
+	width: 370px;
+	height: 812px;
+}
+
+.audio {
+	text-align: center;
+	color: #fff;
+	margin-top: 106px;
+	margin-bottom: 247px;
+}
+
+.audio .header-start {
+	font-weight: bold;
+	font-size: 51.05px;
+	letter-spacing: 0.638095px;
+}
+
+.audio .p-start {
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+}
+
+.login {
+	text-align: center;
+}
+
+.login form {
+	display: grid;
+	margin-left: 20px;
+	margin-right: 20px;
+    
+}
+
+.login input {
+	margin-top: 20px;
+	padding: 15px 15px;
+    min-width: 326px;
+	border-radius: 10px;
+	border: none;
+    outline: none;
+}
+
+.forgot {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 32px;
+}
+
+.btn {
+	min-width: 326px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    background: #0ACF83;
+    color: #fff;
+    margin-bottom: 24px;
+	transition: ease-in-out .1s;
+}
+
+.btn:hover {
+	background: #147a53;
+}
+
+.account {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;   
+}
+
+.signup {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0ACF83;
+}
