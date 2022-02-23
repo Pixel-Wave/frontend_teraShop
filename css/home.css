@@ -24,19 +24,24 @@
 }
 
 .header img {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
 }
 
+.header .user-avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 main {
-    width: 40rem;
+    max-width: 40rem;
 }
 
 .greetings {
-    display: flex;
-    flex-direction: column;
-    min-width: 40rem;
     margin: 0 1.5rem 1.5rem;
 }
 
@@ -122,8 +127,10 @@ li a {
 
 .container-courses {
     display: flex;
-    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     margin: 1.25rem 0;
+    padding-bottom: 1rem;
 }
 
 .content-course {
@@ -174,7 +181,7 @@ li a {
 
 .header-featured p {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--dark-grey);
 }
 
@@ -193,6 +200,7 @@ li a {
 .content-featured-course {
     display: flex;
     align-items: center;
+    width: 9.5rem;
     flex-direction: column;
     background-color: var(--white);
     border-radius: 0.5rem;
@@ -201,7 +209,6 @@ li a {
 
 .course-image{
     width: 7.5rem;
-    background-image: url(https://images.unsplash.com/photo-1588239034647-25783cbfcfc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -219,4 +226,5 @@ li a {
     font-size: 0.75rem;
     font-weight: bold;
     text-align: left;
+    margin-top: 0.5rem;
 }
