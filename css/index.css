@@ -1,23 +1,14 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	overflow: hidden;
-	font-family: "DM Sans", sans-serif;
-}
-
-a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 700;
-}
-
 .container {
 	background: url("../img/dj.png");
 	background-repeat: no-repeat;
-	width: 370px;
-	height: 812px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow-y: hidden;
+	max-width: 640px;
+	height: 100vh;
 }
 
 .audio {
@@ -39,7 +30,7 @@ a {
 	letter-spacing: 0.2px;
 }
 
-.login {
+/* .login {
 	text-align: center;
 }
 
@@ -57,12 +48,37 @@ a {
 	border-radius: 10px;
 	border: none;
     outline: none;
+} */
+
+input {
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	border: none;
+	padding: 12px 0;
+	width: 80%;
 }
 
+.input ion-icon {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.login .input {
+	display: flex;
+	background-color: var(--white);
+	align-items: center;
+	margin-bottom: 12px;
+	border-radius: 4px;
+} 	
+
 .forgot {
-	display: inline-block;
+	color: #fff;
+	display: block;
 	margin-top: 20px;
 	margin-bottom: 32px;
+	text-align: center;
 }
 
 .btn {
@@ -83,7 +99,8 @@ a {
 .account {
     font-weight: 400;
     font-size: 14px;
-    color: #fff;   
+    color: #fff; 
+	text-align: center;  
 }
 
 .signup {
