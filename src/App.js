@@ -1,9 +1,11 @@
-
-import './styles/App.css';
+import {GlobalStyle} from "./styles/global"
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <>
+      <GlobalStyle/>
+      <h1>hello world</h1>
+    </>
   )
 }
 
