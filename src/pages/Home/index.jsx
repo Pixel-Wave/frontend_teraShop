@@ -12,7 +12,7 @@ import {
     FeaturedCourses,
     ContentFeaturedCourses
 
-} from "./style";
+} from "./styles";
 
 export function Home() {
     return (
@@ -100,24 +100,6 @@ export function Home() {
                 </HeaderFeatured>
                 
                 <FeaturedCourses>
-                    <ContentFeaturedCourses 
-                        className="content-course" 
-                        CourseImage={"https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo.png"}
-                    >
-                        <div className="course-image" ></div>
-                        <div className="price">
-                            <h1>Curso topzera de java</h1>
-                            <h2>R$ 2335,49</h2>
-                            <div className="rating">
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </div>
-                        </div>
-                    </ContentFeaturedCourses>
-
                     <ContentFeaturedCourses 
                         className="content-course" 
                         CourseImage={"https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo.png"}

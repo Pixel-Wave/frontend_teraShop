@@ -187,6 +187,7 @@ export const HeaderFeatured = styled.div`
 export const FeaturedCourses = styled.div`
     flex: 1;
     display: flex;
+    gap: 1rem;
     overflow-x: scroll;
     margin: 1.25rem 1.5rem 1.5rem 0;
     padding: 0.5rem;
@@ -194,6 +195,7 @@ export const FeaturedCourses = styled.div`
 
 export const ContentFeaturedCourses = styled.div`
     display: flex;
+    row-gap: 1rem;
     align-items: center;
     min-width: 12rem;
     height: 15rem;
@@ -201,7 +203,11 @@ export const ContentFeaturedCourses = styled.div`
     background-color: var(--white);
     border-radius: 0.5rem;
     text-align: left;
-    margin-right: 1rem;
+
+    + * .content-course{
+        margin-left: 30px;
+    }
+    
 
     .course-image{
         width: 7.5rem;
