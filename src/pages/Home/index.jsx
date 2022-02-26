@@ -1,4 +1,5 @@
 import React from "react";
+
 import { 
     Container,
     Header, 
@@ -34,7 +35,7 @@ export function Home() {
             <Search>
                 <ion-icon name="search"></ion-icon> 
                 <input type="text" placeholder="Search course"/>
-            </Search>  
+            </Search>
 
             <ProductsDestack>
                 <ListCategories>
