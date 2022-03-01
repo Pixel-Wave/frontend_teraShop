@@ -12,7 +12,6 @@ import {
     HeaderFeatured,
     FeaturedCourses,
     ContentFeaturedCourses
-
 } from "./styles";
 
 export function Home() {
