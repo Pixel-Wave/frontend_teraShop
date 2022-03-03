@@ -3,16 +3,18 @@ import { Home } from "./pages/Home";
 import { SignIn } from "./pages/SignIn";
 import { SearchPage } from "./pages/SearchPage";
 import { ExploreProducts } from "./pages/ExploreProducts";
+import { FilterModal } from "./Components/FilterModal";
 
 function App() {
   return (
     <>
       <GlobalStyle/>
-      <ExploreProducts/>
+      <FilterModal/>
       {/* 
-      <Home/> 
-      <SignIn/>
-      <SearchPage/>
+        <Home/> 
+        <SignIn/>
+        <SearchPage/>
+        <ExploreProducts/>
       */}
     </>
   )
