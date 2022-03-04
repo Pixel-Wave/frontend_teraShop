@@ -64,7 +64,6 @@ export const ListOrDelete = styled.div`
     flex-direction: column;
     justify-content: space-between;
     gap: 0.5rem;
-    margin-right: 1rem;
 
     ion-icon {
         padding: 0.3rem;
