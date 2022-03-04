@@ -1,7 +1,7 @@
 import React from "react";
 import { AnotherCourses } from "../../Components/AnotherCourses";
-
-import {OverviewCourses} from '../../Components/OverviewCourses'
+import { OverviewCourses } from "../../Components/OverviewCourses";
+import { ContentCourse } from "../../Components/ContentsCourse"; 
 
 import {
     Container,
@@ -31,9 +31,10 @@ export function Product() {
                     <h3 className="active">Overview</h3>
                     <h3>Content</h3>
                 </CourseHeader>
-                <OverviewCourses/>
+                {/* <OverviewCourses/> */}
+                <ContentCourse/>
             </CourseContainer>
-            <AnotherCourses/>
+            {/* <AnotherCourses/> */}
             
             <AddCartButton>
                 Add To Cart
