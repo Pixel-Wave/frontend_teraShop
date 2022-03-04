@@ -19,6 +19,18 @@ export function AnotherCourses() {
                     <h2>Curso de agiota</h2>
                     <h3>R$ 354,99</h3>
                 </CourseItem>
+
+                <CourseItem>
+                    <div></div>
+                    <h2>Curso de agiota</h2>
+                    <h3>R$ 354,99</h3>
+                </CourseItem>
+
+                <CourseItem>
+                    <div></div>
+                    <h2>Curso de agiota</h2>
+                    <h3>R$ 354,99</h3>
+                </CourseItem>
             </BoxCourse>
         </RelatedCourses>
     )

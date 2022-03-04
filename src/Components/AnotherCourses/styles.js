@@ -27,6 +27,7 @@ export const BoxCourse = styled.div`
     display: flex;
     overflow-x: scroll;
     padding-bottom: 1rem;
+    gap: 1rem;
 `
 
 export const CourseItem = styled.div`

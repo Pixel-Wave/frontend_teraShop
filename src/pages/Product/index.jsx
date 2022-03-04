@@ -31,10 +31,10 @@ export function Product() {
                     <h3 className="active">Overview</h3>
                     <h3>Content</h3>
                 </CourseHeader>
-                {/* <OverviewCourses/> */}
-                <ContentCourse/>
+                <OverviewCourses/>
+                {/* <ContentCourse/> */}
             </CourseContainer>
-            {/* <AnotherCourses/> */}
+            <AnotherCourses/>
             
             <AddCartButton>
                 Add To Cart

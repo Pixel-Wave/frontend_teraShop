@@ -5,18 +5,20 @@ import { SearchPage } from "./pages/SearchPage";
 import { ExploreProducts } from "./pages/ExploreProducts";
 import { FilterModal } from "./Components/FilterModal";
 import { Product } from "./pages/Product";
+import { Cart } from "./pages/Cart";
 
 function App() {
   return (
     <>
       <GlobalStyle/>
-      <Product/>
+      <Cart/>
       {/* 
         <Home/> 
         <SignIn/>
         <SearchPage/>
         <ExploreProducts/>
         <FilterModal/>
+        <Product/>
       */}
     </>
   )
