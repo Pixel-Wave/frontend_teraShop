@@ -40,7 +40,7 @@ export const CartOption = styled.div`
 export const ImageOption = styled.div`
     min-width: 5.5rem;
     height: 5.5rem;
-    background-image: url(${(props)=> props.Image});
+    background-image: url(${(props) => props.Image});
     background-size: cover;
     background-repeat: no-repeat;
 `;

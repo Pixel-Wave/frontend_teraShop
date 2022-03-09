@@ -1,9 +1,11 @@
 import React from "react"
+import { Route, Routes } from "react-router-dom";
 import { 
     Container,
     Audio,
     Login,
 } from "./styles"
+import { ForgotPassword } from "./pages/ForgotPassword";
 
 export function SignIn() {
     return(
@@ -26,12 +28,13 @@ export function SignIn() {
                 </div>
             </form>
 
-            <a href="#" class="forgot">Forgot Password</a>
-            <button class="btn">Sign in</button>
-            <p class="account">Didn't have any account? <a href="#" class="signup">Sign Up here</a></p>
+            <Routes>
+                <Route element = { < ForgotPassword /> } path="/forgotpassword" />  
+                <a href="#" class="forgot">Forgot Password</a>
+                <button class="btn">Sign in</button>
+                <p class="account">Didn't have any account? <a href="#" class="signup">Sign Up here</a></p>
+            </Routes>
         </Login>
     </Container>
     )
 }
-
-
