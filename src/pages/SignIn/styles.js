@@ -38,6 +38,7 @@ export const Audio = styled.div`
 `;
 
 export const Login = styled.div`
+	width: 80%;
 	.forgot {
 		color: #fff;
 		display: block;
@@ -45,22 +46,6 @@ export const Login = styled.div`
 		margin-bottom: 32px;
 		text-align: center;
 	}
-
-	.btn {
-		min-width: 326px;
-		border: none;
-		border-radius: 10px;
-		padding: 15px 15px;
-		background: #0ACF83;
-		color: #fff;
-		margin-bottom: 24px;
-		transition: ease-in-out .1s;
-	}
-
-	.btn:hover {
-		background: #147a53;
-	}
-
 	.account {
 		font-weight: 400;
 		font-size: 14px;

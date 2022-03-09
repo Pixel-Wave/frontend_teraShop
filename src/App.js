@@ -14,15 +14,15 @@ function App() {
 	return (
 		<>
 			<GlobalStyle />
-			{/* 
-        <SignIn/>
-        <Home />
-        <SearchPage/>
-        <Profile/>
-        <ExploreProducts/>
-        <FilterModal/>
-        <Product/>
-        <Cart/>
+		{/* 
+			<Product/>
+			<Home />
+			<SignIn/>
+			<SearchPage/>
+			<Profile/>
+			<ExploreProducts/>
+			<FilterModal/>
+			<Cart/>
       */}
 
 			<BrowserRouter>

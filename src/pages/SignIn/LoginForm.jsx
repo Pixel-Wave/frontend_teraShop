@@ -2,16 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Input } from "../../Components/Input";
 import { Login } from "./styles";
+import { Button } from "../../Components/Button"
 
 export function LoginForm() {
     return (
         <Login>
             <form action="" class="form-start">
-                {/* <div class="input">
-                    <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" name="email" id="email" class="email" placeholder="Email"></input>
-                </div> */}
-
                 <Input 
                     label={"email"}
                     iconName={"mail-outline"}
@@ -30,15 +26,14 @@ export function LoginForm() {
                     placeholder={"Password"}
                     error={"error"}
                 />
+                <Link to="/login/lost-password">Lost Password</Link>
+                {/* <a href="#" class="forgot">Forgot Password</a> */}
+                {/* <button class="btn">Sign in</button> */}
 
-                {/* <div class="input">
-                    <ion-icon name="lock-closed-outline"></ion-icon>
-                    <input type="password" name="password" id="password" class="password" placeholder="Password"></input>
-                </div> */}
+                
+                <Button >Sign In</Button>
             </form>
-            <Link to="/login/lost-password">Lost Password</Link>
-            {/* <a href="#" class="forgot">Forgot Password</a> */}
-            <button class="btn">Sign in</button>
+            
             <p class="account">Didn't have any account? <a href="#" class="signup">Sign Up here</a></p>
         </Login>
     )
