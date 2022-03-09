@@ -7,6 +7,7 @@ import { FilterModal } from "./Components/FilterModal";
 import { Product } from "./pages/Product";
 import { Cart } from "./pages/Cart";
 import { Profile } from "./pages/Profile";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 
 			<BrowserRouter>
 				<Routes>
-					<Route element={<SignIn />} path="/" />
+					<Route element={<SignIn/>} path="/login/*" />
 				</Routes>
 			</BrowserRouter>
 		</>
