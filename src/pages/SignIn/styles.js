@@ -38,29 +38,6 @@ export const Audio = styled.div`
 `;
 
 export const Login = styled.div`
-	input {
-		border: none;
-		outline: none;
-		display: flex;
-		align-items: center;
-		border: none;
-		padding: 12px 0;
-		width: 80%;
-	}
-
-	.input ion-icon {
-		margin-left: 0.5rem;
-		margin-right: 0.5rem;
-	}
-
-	.input {
-		display: flex;
-		background-color: var(--white);
-		align-items: center;
-		margin-bottom: 12px;
-		border-radius: 4px;
-	} 	
-
 	.forgot {
 		color: #fff;
 		display: block;
@@ -96,24 +73,4 @@ export const Login = styled.div`
 		font-size: 14px;
 		color: #0ACF83;
 	}
-
 `;
-
-
-/* .login {
-	text-align: center;
-}
-.login form {
-	display: grid;
-	margin-left: 20px;
-	margin-right: 20px;
-    
-}
-.login input {
-	margin-top: 20px;
-	padding: 15px 15px;
-    min-width: 326px;
-	border-radius: 10px;
-	border: none;
-    outline: none;
-} */

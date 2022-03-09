@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
 		--primary: #33cc95;
 		--accent: #ffc120;
 		--red: #F21F00;
+        --error: #FF8A00;
 
 		--white: #ffffff;
 		--dark: #191919;
