@@ -27,7 +27,13 @@ function App() {
 
 			<BrowserRouter>
 				<Routes>
-					<Route element={<SignIn/>} path="/login/*" />
+					<Route element={<SignIn/>} path="/*" />
+					<Route element={ <Home/> } path="/home/*" />
+					<Route element={ <SearchPage/> } path="/search/*" />
+	  				<Route element={ <ExploreProducts/> } path="/explore/*" />
+					<Route element={ <Product/> } path="/product/*" />
+					<Route element={ <Cart/> } path="/shop/*" />
+					<Route element={ <Profile/> } path="/profile" />
 				</Routes>
 			</BrowserRouter>
 		</>

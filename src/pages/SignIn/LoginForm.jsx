@@ -31,10 +31,10 @@ export function LoginForm() {
                 {/* <button class="btn">Sign in</button> */}
 
                 
-                <Button >Sign In</Button>
+                <Link to="/home/"><Button >Sign In</Button></Link>
             </form>
             
-            <p class="account">Didn't have any account? <a href="#" class="signup">Sign Up here</a></p>
+            <p class="account">Didn't have any account?<Link to="/login" class="signup">Sign Up here</Link></p>
         </Login>
     )
 }

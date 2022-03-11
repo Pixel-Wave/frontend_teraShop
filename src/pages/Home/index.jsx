@@ -14,16 +14,20 @@ import {
     ContentFeaturedCourses
 } from "./styles";
 
+import { Link } from "react-router-dom";
+
 export function Home() {
     return (
         <Container>
+            
             <Header userAvatar={"https://blogs.opovo.com.br/artesanatodamente/wp-content/uploads/sites/52/2018/08/Esqueceram-de-Mim-740x555.jpg"}>
                 <ion-icon name="menu-outline"></ion-icon>
                 <nav>
                     <ion-icon name="book"></ion-icon>
                     <p>Pixel Academy</p>
                 </nav>
-                <div className="user-avatar"></div>
+                <Link to="/profile"><div className="user-avatar"></div></Link>
+            
             </Header>
 
             <Greetings>
@@ -32,8 +36,10 @@ export function Home() {
             </Greetings>
 
             <Search>
-                <ion-icon name="search"></ion-icon> 
-                <input type="text" placeholder="Search course"/>
+                <Link to="/search">
+                    <ion-icon name="search"></ion-icon> 
+                    <input type="text" placeholder="Search course"/>
+                </Link>
             </Search>
 
             <ProductsDestack>
@@ -57,7 +63,7 @@ export function Home() {
                         <div className="title">
                             <h1>O melhor do java para você</h1>
                             <span>
-                                <p>Shop now</p>
+                                <Link to="/product"><p>Shop now</p></Link>
                                 <ion-icon name="arrow-forward-outline"></ion-icon>
                             </span>
                         </div>
@@ -70,7 +76,7 @@ export function Home() {
                         <div className="title">
                             <h1>O melhor do java para você</h1>
                             <span>
-                                <p>Shop now</p>
+                                <Link to="/product"><p>Shop now</p></Link>
                                 <ion-icon name="arrow-forward-outline"></ion-icon>
                             </span>
                         </div>
@@ -83,7 +89,7 @@ export function Home() {
                         <div className="title">
                             <h1>O melhor do java para você</h1>
                             <span>
-                                <p>Shop now</p>
+                                <Link to="/product"><p>Shop now</p></Link>
                                 <ion-icon name="arrow-forward-outline"></ion-icon>
                             </span>
                         </div>

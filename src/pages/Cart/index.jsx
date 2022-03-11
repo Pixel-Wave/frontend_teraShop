@@ -11,11 +11,13 @@ import {
     Button,
 } from "./styles";
 
+import { Link } from "react-router-dom"
+
 export function Cart() {
     return(
-        <>
+        <> 
             <HeaderCart>
-                <ion-icon name="chevron-back-outline"></ion-icon>
+                <Link to="/home"><ion-icon name="chevron-back-outline"></ion-icon></Link>
                 <p>Shopping Cart</p>
                 <ion-icon name="trash-outline"></ion-icon>
             </HeaderCart>
