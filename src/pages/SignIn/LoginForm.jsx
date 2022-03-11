@@ -1,21 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Input } from "../../Components/Input";
+import { Input } from "../../components/Input";
 import { Login } from "./styles";
-import { Button } from "../../Components/Button"
+import { Button } from "../../components/Button"
+
+import { useForm } from "../../hooks/useForm";
 
 export function LoginForm() {
+    const username = useForm('email');
+    const password = useForm();
+
     return (
         <Login>
-            <form action="" class="form-start">
+            <form action="" className="form-start">
                 <Input 
                     label={"email"}
                     iconName={"mail-outline"}
-                    type={"email"}
+                    type={"text"}
                     name={"email"}
                     id={"email"}
                     placeholder={"Email"}
-                    error={"error"}
+                    {...username}
                 />
                 <Input 
                     label={"password"}
@@ -24,17 +29,13 @@ export function LoginForm() {
                     name={"password"}
                     id={"password"}
                     placeholder={"Password"}
-                    error={"error"}
+                    {...password}
                 />
                 <Link to="/login/lost-password">Lost Password</Link>
-                {/* <a href="#" class="forgot">Forgot Password</a> */}
-                {/* <button class="btn">Sign in</button> */}
-
-                
                 <Link to="/home/"><Button >Sign In</Button></Link>
             </form>
             
-            <p class="account">Didn't have any account?<Link to="/login" class="signup">Sign Up here</Link></p>
+            <p className="account">Didn't have any account?<Link to="/login" className="signup">Sign Up here</Link></p>
         </Login>
     )
 }

@@ -3,7 +3,7 @@ import { Home } from "./pages/Home";
 import { SignIn } from "./pages/SignIn";
 import { SearchPage } from "./pages/SearchPage";
 import { ExploreProducts } from "./pages/ExploreProducts";
-import { FilterModal } from "./Components/FilterModal";
+import { FilterModal } from "./components/FilterModal";
 import { Product } from "./pages/Product";
 import { Cart } from "./pages/Cart";
 import { Profile } from "./pages/Profile";

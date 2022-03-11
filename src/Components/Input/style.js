@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
 		align-items: center;
 		border: none;
 		padding: 12px 0;
-		width: 80%;
+		width: 90%;
 	} 	
 
     ion-icon {

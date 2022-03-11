@@ -12,8 +12,8 @@ export function SignIn() {
     return(
     <Container>
         <Audio>
-            <h1 class="header-start">Pixel Academy</h1>
-            <p class="p-start">It's modular and designed to last</p>
+            <h1 className="header-start">Pixel Academy</h1>
+            <p className="p-start">It's modular and designed to last</p>
         </Audio>
         <Routes>
             <Route path="/" element={<LoginForm/>}/>

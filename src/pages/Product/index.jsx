@@ -1,7 +1,7 @@
 import React from "react";
-import { AnotherCourses } from "../../Components/AnotherCourses";
-import { OverviewCourses } from "../../Components/OverviewCourses";
-import { ContentCourse } from "../../Components/ContentsCourse";
+import { AnotherCourses } from "../../components/AnotherCourses";
+import { OverviewCourses } from "../../components/OverviewCourses";
+import { ContentCourse } from "../../components/ContentsCourse";
 
 import {
 	Container,
