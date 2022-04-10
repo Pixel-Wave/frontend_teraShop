@@ -12,7 +12,7 @@ import {
     Stars
 } from "./styles";
 
-export function OverviewCourses() {
+export function OverviewCourses({ImageSource}) {
     return (
         <>
             <PresentationVideos >
@@ -27,11 +27,11 @@ export function OverviewCourses() {
                     Review (102)
                 </TitleReview>
                 <ItemReview>
-                    <UserImage ImageSource={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfwNzIsKhQlro4NJjJkJtNNAPrbpPdH3Q8Q&usqp=CAU"}/>
+                    <UserImage ImageSource={ImageSource}/>
                     <Testimonial>
                         <NameUser>
                             <p>John Doe</p>
-                            <h5>1 Month ago</h5>
+                            <h5>345 Month ago</h5>
                         </NameUser>
                         <Stars>
                             <ion-icon name="star"></ion-icon>

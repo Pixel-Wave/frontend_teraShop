@@ -19,7 +19,6 @@ import { Link } from "react-router-dom";
 export function Home() {
     return (
         <Container>
-            
             <Header userAvatar={"https://blogs.opovo.com.br/artesanatodamente/wp-content/uploads/sites/52/2018/08/Esqueceram-de-Mim-740x555.jpg"}>
                 <ion-icon name="menu-outline"></ion-icon>
                 <nav>

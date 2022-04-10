@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Input } from "../../components/Input";
 import { Login } from "./styles";
-import { Button } from "../../components/Button"
 
 import { useForm } from "../../hooks/useForm";
 
@@ -31,11 +29,7 @@ export function LoginForm() {
                     placeholder={"Password"}
                     {...password}
                 />
-                <Link to="/login/lost-password">Lost Password</Link>
-                <Link to="/home/"><Button >Sign In</Button></Link>
             </form>
-            
-            <p className="account">Didn't have any account?<Link to="/login" className="signup">Sign Up here</Link></p>
         </Login>
     )
 }

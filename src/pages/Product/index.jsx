@@ -34,7 +34,7 @@ export function Product() {
 					<h3 className="active">Overview</h3>
 					<h3>Content</h3>
 				</CourseHeader>
-				<OverviewCourses />
+				<OverviewCourses ImageSource={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfwNzIsKhQlro4NJjJkJtNNAPrbpPdH3Q8Q&usqp=CAU"}/>
 				{/* <ContentCourse/> */}
 			</CourseContainer>
 			<AnotherCourses />

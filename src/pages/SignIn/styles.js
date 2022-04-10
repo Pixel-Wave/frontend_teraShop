@@ -15,13 +15,16 @@ export const Container = styled.main`
 	max-width: 640px;
 	height: 100vh;
 	background-blend-mode: color-burn;
+
+	a {
+		color: white;
+	}
 `;
 
-export const Audio = styled.div`
+export const Logo = styled.div`
 	text-align: center;
 	color: #fff;
 	margin-top: 106px;
-	margin-bottom: 247px;
 
 
 	.audio .header-start {

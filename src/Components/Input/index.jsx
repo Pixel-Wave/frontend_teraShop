@@ -1,8 +1,18 @@
 import React from "react";
 import { Label, Wrapper, Error } from "./style";
 
-export function Input({label, name, type, id, placeholder, iconName, value, onChange, onBlur, error}) {
+export function Input({
+    label, 
+    name, 
+    type, 
+    id, 
+    placeholder, 
+    iconName, 
+    value, 
+    setValue,
+}) {
     return(
+
         <>
             <Label htmlFor={name}>{label}</Label>
             <Wrapper>
@@ -12,13 +22,11 @@ export function Input({label, name, type, id, placeholder, iconName, value, onCh
                     name={name} 
                     id={id} 
                     className="email" 
-                    placeholder={placeholder}
                     value={value}
-                    onChange={onChange}
-                    onBlur={onBlur}
+                    placeholder={placeholder}
+                    onChange={(e)=>setValue(e.target.value)}
                 />
             </Wrapper>
-            {error && <Error>{error}</Error>}
         </>
     )
 }
